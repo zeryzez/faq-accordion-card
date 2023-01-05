@@ -155,6 +155,13 @@ body{
     text-align: center;
 }
 
+.text ul li button:hover{
+    color: hsl(14, 88%, 65%);
+    transition: 0.2s;
+}
+
+
+
 .text ul li img{
     display: flex;
     padding-left: 1rem;
@@ -169,8 +176,7 @@ body{
     color: hsl(240, 6%, 50%);
     font-size: 12px;
     padding-bottom: 1rem;
-    position: absolute;
-    visibility: hidden;
+    display: none;
 }
 
 
